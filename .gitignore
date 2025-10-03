@@ -1,0 +1,6 @@
+build/
+.vcs/
+.vscode/
+main.out
+todo.txt
+test/
