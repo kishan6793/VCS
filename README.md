@@ -33,7 +33,7 @@ sudo apt install g++
 sudo apt-get install libssl-dev
 sudo apt install zlib1g-dev
 ```
-| **Command**                       | **Library / Package** | **One-liner Description**                                                                 |
+| **Command**                       | **Library / Package** | **Description**                                                                 |
 | --------------------------------- | --------------------- | ----------------------------------------------------------------------------------------- |
 | `sudo apt update`                 | -                     | Updates the local package index to fetch the latest available package versions.           |
 | `sudo apt install g++`            | `g++`                 | Installs the GNU C++ compiler for compiling C++ source code.                              |
