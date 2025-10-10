@@ -48,6 +48,11 @@ make all
 ```
 (make sure to create an empty folder named 'test' before running this command)
 
+Use this command to create a symbolic link and access 'vcs' globally:
+
+```bash
+sudo ln -s /vcs/test/main.out /usr/local/bin/vcs
+```
 ---
 
 # **Directories**
