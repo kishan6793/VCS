@@ -33,13 +33,20 @@ sudo apt install g++
 sudo apt-get install libssl-dev
 sudo apt install zlib1g-dev
 ```
+| **Command**                       | **Library / Package** | **One-liner Description**                                                                 |
+| --------------------------------- | --------------------- | ----------------------------------------------------------------------------------------- |
+| `sudo apt update`                 | -                     | Updates the local package index to fetch the latest available package versions.           |
+| `sudo apt install g++`            | `g++`                 | Installs the GNU C++ compiler for compiling C++ source code.                              |
+| `sudo apt-get install libssl-dev` | `libssl-dev`          | Installs OpenSSL development libraries for implementing cryptographic functions like SHA. |
+| `sudo apt install zlib1g-dev`     | `zlib1g-dev`          | Installs the zlib development files for compression and decompression functionality.      |
+
 
 Once the dependencies are installed, you can build the project using:
 
 ```bash
 make all
 ```
-(make sure to create an empty folder named 'test' before running the command)
+(make sure to create an empty folder named 'test' before running this command)
 
 ---
 
