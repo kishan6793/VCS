@@ -783,15 +783,6 @@ vcs reset --hard <commit-hash>
 
 ---
 
-### &#10140; **How It Works**
-
-- First, go to the `HEAD` of `branch-name` and get its `commit-hash`. Then, compare it with the `current branch`.
-- If a file exists in `branch-name` but not in the `current branch`, it is copied to the `current branch`.
-- If a file exists in both branches and is identical, it is ignored.
-- If a file exists in both branches but has different content, a `conflict` occurs. The conflicting files are merged into one, and you must manually resolve the conflicts.
-
----
-
 # **`stash`**
 
 ```bash
